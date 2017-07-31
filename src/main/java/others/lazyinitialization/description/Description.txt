@@ -1,0 +1,6 @@
+!!! 1.8+ !!!
+
+Thanks to the Lazy<T> helper, the instance of Heavy is created lazily, only on demand.
+We can also see that the first call to get created the instance, but the second call to get is returning the pre-created instance.
+The Lazy<T> helper does a good job of encapsulating and lazily creating the instance.
+!!!This implementation, however, does not guarantee any thread safety (the C# Lazy<T> does).

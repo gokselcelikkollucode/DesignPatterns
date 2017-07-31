@@ -1,0 +1,1 @@
+The && and || operators "short-circuit", meaning they don't evaluate the right hand side if it isn't necessary.
