@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class TestPrototype
 {
-
     public TestPrototype()
     {
         ShapeCache.loadCache();
