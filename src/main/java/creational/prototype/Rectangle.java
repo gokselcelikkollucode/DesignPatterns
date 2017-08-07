@@ -2,7 +2,8 @@ package creational.prototype;
 
 public class Rectangle extends Shape
 {
-    public Rectangle(){
+    public Rectangle()
+    {
         type = ShapeType.RECTANGLE;
     }
 

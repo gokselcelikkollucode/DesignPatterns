@@ -64,5 +64,4 @@ public class Address
             return address;
         }
     }
-
 }

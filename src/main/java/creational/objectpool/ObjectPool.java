@@ -13,7 +13,6 @@ public abstract class ObjectPool<T>
      */
     private ConcurrentLinkedQueue<T> pool;
 
-
     /**
      * ScheduledExecutorService starts a special task in a separate thread and observes the minimum and maximum number of objects in the pool periodically in a specified time (with
      * parameter validationInterval). When the number of objects is less than the minimum, missing instances will be created. When the number of objects is greater than the
@@ -131,6 +130,5 @@ public abstract class ObjectPool<T>
      *
      * @return T new object
      */
-
     protected abstract T createObject();
 }

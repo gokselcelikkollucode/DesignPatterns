@@ -13,7 +13,7 @@ public abstract class ShapeDecorator implements Shape
     @Override
     public String draw()
     {
-        return decoratedShape.draw() + ", " +borderColor;
+        return decoratedShape.draw() + ", " + borderColor;
     }
 
     public String getBorderColor()

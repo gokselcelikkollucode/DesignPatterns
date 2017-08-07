@@ -6,6 +6,5 @@ public class BlueCircle implements DrawAPI
     public String drawCircle(int radius, int x, int y)
     {
         return "Drawing Circle [color: blue, radius: " + radius + ", x: " + x + ", y: " + y + "]";
-
     }
 }

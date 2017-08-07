@@ -1,4 +1,5 @@
 package others.shortcircuitevaluation;
+
 public class ShortCircuitDemo
 {
     public static void main(String[] args)
@@ -16,7 +17,8 @@ public class ShortCircuitDemo
         doWorkWithLazy(8);
     }
 
-    public static void doWorkNormal1(int input){
+    public static void doWorkNormal1(int input)
+    {
         System.out.println("Processing: " + input);
         int temp = compute(input);
         if (input > 5 && temp > 15)
@@ -36,17 +38,18 @@ public class ShortCircuitDemo
 
     /**
      * If compute() were expensive, we would not want to call it unnecessary.
+     *
      * @param input
      */
     public static void doWorkWithLazy(int input)
     {
         Lazy<Integer> temp = new Lazy<>(() -> compute(input));
         System.out.println("Processing: " + input);
-        if(input > 5 && temp.get() > 15){
+        if (input > 5 && temp.get() > 15)
+        {
             System.out.println("Further processing with: " + temp.get());
         }
     }
-
 
     public static int compute(int number)
     {

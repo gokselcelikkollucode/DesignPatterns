@@ -8,7 +8,6 @@ public class Person
     private final boolean myIsEmployed;
     private final boolean myIsHomeOwner;
 
-
     private Person(Builder builder)
     {
         this.myFullName = builder.myFullName;
@@ -91,7 +90,5 @@ public class Person
             return new Person(this);
         }
     }
-
-
 }
 

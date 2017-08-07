@@ -2,7 +2,6 @@ package structural.decorator;
 
 public class BlueShapeDecorator extends ShapeDecorator
 {
-
     public BlueShapeDecorator(Shape decoratedShape)
     {
         super(decoratedShape);
@@ -17,6 +16,6 @@ public class BlueShapeDecorator extends ShapeDecorator
 
     private void setRedBorder()
     {
-       setBorderColor("Border Color Blue");
+        setBorderColor("Border Color Blue");
     }
 }

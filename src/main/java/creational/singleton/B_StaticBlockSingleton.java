@@ -1,11 +1,11 @@
 package creational.singleton;
 
 /**
- * Static block initialization implementation is similar to eager initialization,
- * except that instance of class is created in the static block that provides option for exception handling.
- *
- * Both eager initialization and static block initialization creates the instance even before it’s being used and that is not the best practice to use.
- * So in further sections, we will learn how to create Singleton class that supports lazy initialization.
+ * Static block initialization implementation is similar to eager initialization, except that instance of class is created in the static block that provides option for exception
+ * handling.
+ * <p>
+ * Both eager initialization and static block initialization creates the instance even before it’s being used and that is not the best practice to use. So in further sections, we
+ * will learn how to create Singleton class that supports lazy initialization.
  */
 public class B_StaticBlockSingleton
 {
@@ -31,5 +31,4 @@ public class B_StaticBlockSingleton
     {
         return instance;
     }
-
 }

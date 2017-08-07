@@ -2,7 +2,6 @@ package structural.adapter;
 
 public class VlcPlayer implements AdvancedMediaPlayer
 {
-
     @Override
     public String playVlc(String fileName)
     {
