@@ -4,7 +4,7 @@ import others.lazyinitialization.Heavy;
 
 public class HolderNormal
 {
-    Heavy heavy = new Heavy();
+    private Heavy heavy = new Heavy();
 
     public HolderNormal()
     {

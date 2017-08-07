@@ -2,7 +2,7 @@ package structural.adapter;
 
 public class MediaAdapter implements MediaPlayer
 {
-    AdvancedMediaPlayer advancedMediaPlayer;
+    private AdvancedMediaPlayer advancedMediaPlayer;
 
     public MediaAdapter(AudioType audioType)
     {

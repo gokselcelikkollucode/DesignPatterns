@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class TestComposite
 {
-    Employee CEO;
+    private Employee CEO;
 
     @Before
     public void setUp()

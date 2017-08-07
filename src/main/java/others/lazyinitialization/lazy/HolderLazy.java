@@ -4,7 +4,7 @@ import others.lazyinitialization.Heavy;
 
 public class HolderLazy
 {
-    Lazy<Heavy> heavy = new Lazy<>(() -> new Heavy());
+    private Lazy<Heavy> heavy = new Lazy<>(() -> new Heavy());
 
     public HolderLazy()
     {

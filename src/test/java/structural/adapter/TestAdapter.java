@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class TestAdapter
 {
-    AudioPlayer audioPlayer = new AudioPlayer();
+    private AudioPlayer audioPlayer = new AudioPlayer();
 
     @Test
     public void testMp3()

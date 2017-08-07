@@ -2,7 +2,7 @@ package structural.adapter;
 
 public class AudioPlayer implements MediaPlayer
 {
-    MediaAdapter mediaAdapter;
+    private MediaAdapter mediaAdapter;
 
     @Override
     public String play(AudioType audioType, String fileName)
