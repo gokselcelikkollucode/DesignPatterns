@@ -55,6 +55,3 @@ Builder returns the product as a final step, but as far as the Abstract Factory 
 
 Often, designs start out using Factory Method (less complicated, more customizable, subclasses proliferate) and evolve toward
 Abstract Factory, Prototype, or Builder (more flexible, more complex) as the designer discovers where more flexibility is needed.
-
-Source URL
-https://sourcemaking.com/design_patterns/abstract_factory
